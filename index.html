@@ -1,49 +1,87 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Arunkumar Muthusamy</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="/index.css" type="text/css"/>
 	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+	<style>
+		.content {
+			padding: 100px 100px;
+			display: flex;
+		}
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Arunkumar Muthusamy</h1>
-						<p>Software Engineer &nbsp;&bull;&nbsp; Data Engineer &nbsp;&bull;&nbsp; Data Scientist</p>
-						<nav>
-							<ul>
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+		.side-bar {
+			width: 25%;
+		}
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
+		.profile {
+			width: 350px;
+			height: 500px;
+		}
 
+		.main-content {
+			margin-left: 10%;
+		}
+
+		.skills h1 {
+			margin-top: 25px;
+			margin-bottom: 0;
+		}
+
+		.items {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.items .square {
+			width: 50px;
+			height: 50px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		.items .rect {
+			width: 75px;
+			height: 50px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+	</style>
+	<body>
+		<div class="content">
+			<div class="side-bar">
+				<img class="profile" src="assets/profile.jpg" width="350" height="500" />
+			</div>
+			<div class="main-content">
+				<div class="summary"> 
+					<h1>Summary</h1>
+					<p>A tech enthusiast who loves to code with 5+ years of demonstrated experience in developing back end services. Have been part of different phases of SDLC ranging from ideation to deployment. </p>
+				</div>
+				<div class="skills">
+					<h1>Skills</h1>
+					<div class="items">
+						<img class="square" src="assets/java.png" />
+						<img class="square" src="assets/python.png" />
+						<img class="square" src="assets/js.png" />
+						<img class="rect" src="assets/spring-boot.png" />
+						<img class="rect" src="assets/airflow.png" />
+						<img class="rect" src="assets/apache-kafka.png" />
+						<img class="rect" src="assets/apache-spark.png" />
+					</div>
+					<div class="items">
+						<img class="square" src="assets/database.png" />
+						<img class="square" src="assets/mysql.webp" />
+						<img class="square" src="assets/postgresql.png" />
+						<img class="square" src="assets/mongodb.webp" />
+					</div>
+				</div>
+				<div class="exp">
+					<h1>Experience</h1>
+					<div class="work-summary">
+						<h3> Software Engineer Intern - Tarka Labs </h3> 
+					</div>
+				</div>
 			</div>
 		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
 	</body>
 </html>
