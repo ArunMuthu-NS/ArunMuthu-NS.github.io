@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+}
+.content {
+    padding: 50px 100px;
+    padding-bottom: 0px;
+    display: flex;
+    max-height: calc(100vh - 50px);
+}
+
+.side-bar {
+    width: 30%;
+    height: 100%;
+}
+
+.profile {
+    width: 350px;
+    height: 500px;
+}
+
+.main-content {
+    margin-left: 5%;
+    overflow: auto;
+    height: 100%;
+}
+
+.summary p {
+    font-size: x-large;
+}
+
+.skills h1 {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.items {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.items .square {
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.items .rect {
+    width: 75px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.exp h1, .work-summary h4, .work-summary h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.contact-section {
+    margin-top: 70px;
+    padding: 25px 25px;
+}
+
+.contact-section img {
+    width: 25px;
+    height: 25px;
+    padding-left: 25px;
+}
+
+.projects .title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.desc {
+    margin-bottom: 25px;
+    font-size: x-large;
+}
+
+.second-page, .third-page {
+    display: none;
+}
+
+.first-page .navigation {
+    margin-top: 145px;
+    margin-left: 250px;
+}
+
+.second-page .navigation {
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.third-page .navigation {
+    margin-top: 176px;
+    margin-left: 250px;
+}
+
+.first-page .sub-content {
+    height: calc(100vh - 350px);
+}
+
+.second-page .exp {
+    height: 100%;
+    max-height: calc(100vh - 293px);
+    overflow: auto;
+    font-size: x-large;
+}
+
+.first-page, .second-page, .third-page {
+    overflow: hidden;
+}
+
+.left-arrow, .right-arrow {
+    width: 50px;
+    height: 50px;
+    /* margin-top: 260px; */
+    margin-left: 50px;
+    font-size: 2.2rem;
+    font-family: body-jetbrains;
+    cursor: pointer;
+}
+
+.left-arrow img, .right-arrow img {
+    width: 50px;
+    height: 50px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
